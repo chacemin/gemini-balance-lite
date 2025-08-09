@@ -8,7 +8,7 @@ export async function handleRequest(request) {
   const search = url.search;
 
   if (pathname === '/' || pathname === '/index.html') {
-    return new Response('Proxy is Running!  More Details: https://github.com/tech-shrimp/gemini-balance-lite', {
+    return new Response('May your days be filled with sunshine and your heart with joy; may every step you take lead to new adventures, and every challenge you face strengthen your spirit. Wishing you laughter that echoes, love that endures, and dreams that take flight. Here is to a life as wonderful as you are—cheers to all the beautiful moments ahead!', {
       status: 200,
       headers: { 'Content-Type': 'text/html' }
     });
